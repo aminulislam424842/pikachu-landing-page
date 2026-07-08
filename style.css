@@ -54,3 +54,11 @@ header{
 .content p{
     margin-top:40px;
 }
+.pikachu{
+   width:560px;
+
+    position:absolute;
+
+    right:150px;
+    top:120px;
+  }
