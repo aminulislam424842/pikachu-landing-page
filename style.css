@@ -28,3 +28,29 @@ header{
 .Line{
  width: 40px;
 }
+.content{
+    width:420px;
+    margin-left:40px;
+    margin-top:90px;
+}
+
+.small-title{
+    letter-spacing:6px;
+    margin-bottom:20px;
+}
+
+.content h1{
+    font-size:95px;
+    margin-bottom:20px;
+}
+
+.description{
+    line-height:35px;
+    font-size:16px;
+    color: #8b8181;
+
+}
+
+.content p{
+    margin-top:40px;
+}
