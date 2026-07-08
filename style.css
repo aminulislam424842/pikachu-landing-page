@@ -62,3 +62,10 @@ header{
     right:150px;
     top:120px;
   }
+.watermark{
+  width: 250px;
+  position: absolute;
+  left: 20px;
+  bottom:-85px;
+  opacity: .150;
+}
