@@ -16,3 +16,15 @@ body{
   border-radius: 20px;
   position: relative;
 }
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px 40px;
+}
+.Logo{
+  width: 150px;
+}
+.Line{
+ width: 40px;
+}
