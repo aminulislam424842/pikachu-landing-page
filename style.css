@@ -1,71 +1,79 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family:Arial, Helvetica, sans-serif;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
   background: #f2f2f2;
 }
-.container{
-   background:linear-gradient(to right,#ffc400 70%,#fff5d8 30%);
-   margin: 30px auto;
-   overflow: hidden;
-   width:90%;
-  height:90vh;
+
+.container {
+  background: linear-gradient(to right, #ffc400 70%, #fff5d8 30%);
+  margin: 30px auto;
+  overflow: hidden;
+  width: 90%;
+  height: 90vh;
   border-radius: 20px;
   position: relative;
 }
-header{
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:30px 40px;
+  padding: 30px 40px;
 }
-.Logo{
+
+.Logo {
   width: 150px;
 }
-.Line{
- width: 40px;
-}
-.content{
-    width:420px;
-    margin-left:40px;
-    margin-top:90px;
+
+.Line {
+  width: 40px;
 }
 
-.small-title{
-    letter-spacing:6px;
-    margin-bottom:20px;
+.content {
+  width: 420px;
+  margin-left: 40px;
+  margin-top: 90px;
 }
 
-.content h1{
-    font-size:95px;
-    margin-bottom:20px;
+.small-title {
+  letter-spacing: 6px;
+  margin-bottom: 20px;
 }
 
-.description{
-    line-height:35px;
-    font-size:16px;
-    color: #8b8181;
+.content h1 {
+  font-size: 95px;
+  margin-bottom: 20px;
+}
+
+.description {
+  line-height: 35px;
+  font-size: 16px;
+  color: #8b8181;
 
 }
 
-.content p{
-    margin-top:40px;
+.content p {
+  margin-top: 40px;
 }
-.pikachu{
-   width:560px;
 
-    position:absolute;
+.pikachu {
+  width: 560px;
 
-    right:150px;
-    top:120px;
-  }
-.watermark{
+  position: absolute;
+
+  right: 150px;
+  top: 120px;
+}
+
+.watermark {
   width: 250px;
   position: absolute;
   left: 20px;
-  bottom:-85px;
+  bottom: -85px;
   opacity: .150;
 }
